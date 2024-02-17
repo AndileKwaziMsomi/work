@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+    background: url('ps4.png') center/cover no-repeat fixed; /* Add "fixed" here */
+  
+}
+
+h1 {
+  font-size: 24px;
+
+}
+
+footer {
+  background-color: #343a40;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f8f4f4;
+  padding: 20px;
+  border-radius: 15px;
+  
+}
+
+
+/* Css for first card battlefield 4 */
+.overlay-text {
+     position: absolute;
+      top:500px;
+      left: 200px;
+      transform: translate(-50%, -50%);
+      background: rgba(255, 255, 255, 0.8);
+      padding: 16px;
+      max-width: 400px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: black;
+      box-sizing: border-box;
+    }
+    
+    img {
+      width: 100%;
+      height: auto;
+     
+    }
+
+    .card-content {
+      padding: 16px;
+    }
+
+/* CSS for the second card which is for AC VALHALLA*/
+    
+    .Ac {
+      position: absolute;
+      top: 520px;
+      right: 0;
+      transform: translate(-50%, -50%);
+      background: rgba(255, 255, 255, 0.8);
+      padding: 16px;
+      max-width: 400px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: black;
+      box-sizing: border-box;
+    }
+
+     img {
+      width: 100%;
+      height: auto;
+     
+    
+    }
+
+    .Ac-content {
+      padding: 16px;
+    }
+
+/* CSS FOR THE 3RD CARD WHICH IS FOR FORMULA 1*/
+.F1 {
+  position: absolute;
+  top: 1150px;
+  left: 200px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 16px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: black;
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+
+}
+
+.F1-content {
+  padding: 16px;
+}
+
+.cod {
+  position: absolute;
+  top: 1170px;
+  right:1px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 16px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: black;
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+
+}
+
+.apex {
+  position: absolute;
+  top: 1900px;
+  right:375px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 16px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: black;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+
+}
+
+.apex-content {
+  padding: 16px;
+}
