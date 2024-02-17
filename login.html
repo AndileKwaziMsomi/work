@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<body>
+    <div class="login-container">
+        <form id="loginForm" action="/action_page.php">
+            <label for="username"> </label><br>
+            <input type="text" id="username" name="username" placeholder="Enter Username"><br>
+            
+            <label for="password"> </label><br>
+            <input type="password" id="password" name="password" placeholder="Enter Password"><br>
+            
+            <input type="submit" value="Login">
+        </form>
+        <p id="errorMessage" class="error-message" style="display: none;"></p>
+    </div>
+    
+
+
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if (username === 'AndileMsomi' && password === 'DeezNuts') {
+                alert('Access Granted');
+            
+                window.location.href = 'dashboard.html'; 
+            } else {
+                const errorMessage = document.getElementById('errorMessage');
+                errorMessage.textContent = 'Invalid Username or Password. Please try again.';
+                errorMessage.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>
